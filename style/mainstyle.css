@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap');
+
+html,
+body
+{
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Expletus Sans', cursive;
+}
+
+#prallax
+{
+    background-image: url(../images/backgrounds/welcomeScreen.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#prallaxSignup {
+    background-image: url(../images/backgrounds/signupPage.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    height: 50%;
+}
+
+#prallaxLogin {
+    background-image: url(../images/backgrounds/loginScreen.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    height: 50%;
+}
+
+#prallaxLogout {
+    background-image: url(../images/backgrounds/byeScreen.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    height: 100%;
+}
+
+#prallaxProfile {
+    background-image: url(../images/backgrounds/greyScreen.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    height: 50%;
+}
+
+.prallax_text
+{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgb(14, 14, 14) 0px 2px 250px 0px;
+    text-align: center;
+}
+
+#welcome
+{
+    margin: 0;
+    padding: 15px;
+    font-size: 8vh;
+}
+
+.header
+{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+}
+
+.headerMenuItem
+{
+    display: inline;
+    padding: 10px;
+}
+
+.subButton {
+    background-color: transparent;
+    margin: 10px;
+    color: black;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 2vh;
+    transition-duration: 0.5s;
+}
+
+.subButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.textInput {
+    height: 20px;
+    width: 15%;
+    transition-duration: 0.5s;
+}
+
+.textInput:focus {
+    width: 20%;
+    border: solid 2px black;
+}
+
+.profileDeitals
+{
+    font-size: 2vh;
+}
